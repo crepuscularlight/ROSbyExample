@@ -1,0 +1,4 @@
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_3_code/devel/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_3_code/devel/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_3_code/devel/lib/pkgconfig/turtlebot3_gazebo.pc
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_3_code/devel/lib/turtlebot3_gazebo/turtlebot3_drive

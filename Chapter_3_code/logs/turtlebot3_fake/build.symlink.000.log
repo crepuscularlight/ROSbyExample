@@ -1,0 +1,4 @@
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_3_code/devel/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_3_code/devel/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig-version.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_3_code/devel/lib/pkgconfig/turtlebot3_fake.pc
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_3_code/devel/lib/turtlebot3_fake/turtlebot3_fake_node

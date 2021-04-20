@@ -1,0 +1,1 @@
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_3_code/devel/.private/turtlebot3_fake/lib/pkgconfig/turtlebot3_fake.pc

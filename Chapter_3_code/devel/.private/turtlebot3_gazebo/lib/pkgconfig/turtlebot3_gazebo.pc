@@ -1,0 +1,8 @@
+prefix=/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_3_code/devel/.private/turtlebot3_gazebo
+
+Name: turtlebot3_gazebo
+Description: Description of turtlebot3_gazebo
+Version: 1.3.1
+Cflags: -I/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_3_code/src/turtlebot3_simulations/turtlebot3_gazebo/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs sensor_msgs geometry_msgs nav_msgs tf gazebo_ros

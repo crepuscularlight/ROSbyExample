@@ -1,0 +1,5 @@
+ros_robotics
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_2_code/devel/.private/ros_robotics/cmake.lock /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_2_code/devel/./cmake.lock
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_2_code/devel/.private/ros_robotics/share/ros_robotics/cmake/ros_roboticsConfig-version.cmake /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_2_code/devel/share/ros_robotics/cmake/ros_roboticsConfig-version.cmake
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_2_code/devel/.private/ros_robotics/share/ros_robotics/cmake/ros_roboticsConfig.cmake /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_2_code/devel/share/ros_robotics/cmake/ros_roboticsConfig.cmake
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_2_code/devel/.private/ros_robotics/lib/pkgconfig/ros_robotics.pc /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_2_code/devel/lib/pkgconfig/ros_robotics.pc
