@@ -1,0 +1,1 @@
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_5_code/devel/.private/catkin_tools_prebuild/setup.sh

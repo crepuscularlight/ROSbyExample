@@ -1,0 +1,6 @@
+devel_space: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_5_code/devel
+install: false
+install_space: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_5_code/install
+profile: default
+source_space: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_5_code/src
+workspace: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_5_code
