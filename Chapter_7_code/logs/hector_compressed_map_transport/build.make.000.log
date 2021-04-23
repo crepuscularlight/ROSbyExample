@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target map_to_image_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/map_to_image_node.dir/src/map_to_image_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_compressed_map_transport/lib/hector_compressed_map_transport/map_to_image_node[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /opt/ros/melodic/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/melodic/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[100%] Built target map_to_image_node

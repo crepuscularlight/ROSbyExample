@@ -1,0 +1,5 @@
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_pose_estimation_core/cmake/hector_pose_estimation_coreConfig.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_pose_estimation_core/cmake/hector_pose_estimation_coreConfig-version.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/include/hector_pose_estimation/matrix_config.h
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/libhector_pose_estimation.so
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/pkgconfig/hector_pose_estimation_core.pc

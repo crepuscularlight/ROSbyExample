@@ -1,0 +1,5 @@
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_quadrotor_model/cmake/hector_quadrotor_modelConfig.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_quadrotor_model/cmake/hector_quadrotor_modelConfig-version.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/libhector_quadrotor_propulsion.so
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/libhector_quadrotor_aerodynamics.so
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/pkgconfig/hector_quadrotor_model.pc

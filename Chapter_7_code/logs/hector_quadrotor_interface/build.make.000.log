@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target hector_uav_msgs_generate_messages_cpp[0m
+[  0%] Built target hector_uav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target hector_quadrotor_interface[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/hector_quadrotor_interface.dir/src/quadrotor_interface.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/hector_quadrotor_interface.dir/src/helpers.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_interface/lib/libhector_quadrotor_interface.so[0m
+[100%] Built target hector_quadrotor_interface

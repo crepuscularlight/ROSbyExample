@@ -1,0 +1,4 @@
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/libhector_geotiff_plugins.so
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/pkgconfig/hector_geotiff_plugins.pc

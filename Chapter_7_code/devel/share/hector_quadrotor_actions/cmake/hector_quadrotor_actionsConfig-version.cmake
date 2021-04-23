@@ -1,0 +1,1 @@
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_actions/share/hector_quadrotor_actions/cmake/hector_quadrotor_actionsConfig-version.cmake

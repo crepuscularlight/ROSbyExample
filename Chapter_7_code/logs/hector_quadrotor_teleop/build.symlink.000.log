@@ -1,0 +1,4 @@
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_quadrotor_teleop/cmake/hector_quadrotor_teleopConfig.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_quadrotor_teleop/cmake/hector_quadrotor_teleopConfig-version.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/pkgconfig/hector_quadrotor_teleop.pc
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/hector_quadrotor_teleop/quadrotor_teleop

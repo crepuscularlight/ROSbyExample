@@ -1,0 +1,5 @@
+hector_models/hector_xacro_tools
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_xacro_tools/cmake.lock /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/./cmake.lock
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_xacro_tools/share/hector_xacro_tools/cmake/hector_xacro_toolsConfig-version.cmake /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_xacro_tools/cmake/hector_xacro_toolsConfig-version.cmake
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_xacro_tools/share/hector_xacro_tools/cmake/hector_xacro_toolsConfig.cmake /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_xacro_tools/cmake/hector_xacro_toolsConfig.cmake
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_xacro_tools/lib/pkgconfig/hector_xacro_tools.pc /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/pkgconfig/hector_xacro_tools.pc

@@ -1,0 +1,5 @@
+hector_quadrotor/hector_quadrotor_demo
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_demo/cmake.lock /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/./cmake.lock
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_demo/share/hector_quadrotor_demo/cmake/hector_quadrotor_demoConfig-version.cmake /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_quadrotor_demo/cmake/hector_quadrotor_demoConfig-version.cmake
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_demo/share/hector_quadrotor_demo/cmake/hector_quadrotor_demoConfig.cmake /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_quadrotor_demo/cmake/hector_quadrotor_demoConfig.cmake
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_demo/lib/pkgconfig/hector_quadrotor_demo.pc /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/pkgconfig/hector_quadrotor_demo.pc

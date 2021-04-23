@@ -1,0 +1,1 @@
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_gazebo_plugins/share/gennodejs/ros/hector_gazebo_plugins/srv/_index.js

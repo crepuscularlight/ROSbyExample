@@ -1,0 +1,1 @@
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_trajectory_server/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig-version.cmake

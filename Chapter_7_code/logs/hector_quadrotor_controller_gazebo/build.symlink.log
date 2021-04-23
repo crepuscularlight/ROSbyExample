@@ -1,0 +1,4 @@
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_quadrotor_controller_gazebo/cmake/hector_quadrotor_controller_gazeboConfig-version.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/share/hector_quadrotor_controller_gazebo/cmake/hector_quadrotor_controller_gazeboConfig.cmake
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/libhector_quadrotor_controller_gazebo.so
+Symlinking /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/lib/pkgconfig/hector_quadrotor_controller_gazebo.pc

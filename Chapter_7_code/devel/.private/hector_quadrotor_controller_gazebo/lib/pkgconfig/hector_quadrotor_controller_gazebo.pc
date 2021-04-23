@@ -1,0 +1,8 @@
+prefix=/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_controller_gazebo
+
+Name: hector_quadrotor_controller_gazebo
+Description: Description of hector_quadrotor_controller_gazebo
+Version: 0.3.5
+Cflags: -I/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/src/hector_quadrotor/hector_quadrotor_controller_gazebo/include
+Libs: -L${prefix}/lib -lhector_quadrotor_controller_gazebo
+Requires: gazebo_ros_control hector_quadrotor_interface

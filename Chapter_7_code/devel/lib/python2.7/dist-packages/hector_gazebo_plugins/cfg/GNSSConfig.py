@@ -1,0 +1,1 @@
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_gazebo_plugins/lib/python2.7/dist-packages/hector_gazebo_plugins/cfg/GNSSConfig.py

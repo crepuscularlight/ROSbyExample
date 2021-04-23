@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_gazebo_plugins/setup.sh

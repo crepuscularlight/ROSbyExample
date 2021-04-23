@@ -1,0 +1,1 @@
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_uav_msgs/share/roseus/ros/hector_uav_msgs/msg/TakeoffFeedback.l

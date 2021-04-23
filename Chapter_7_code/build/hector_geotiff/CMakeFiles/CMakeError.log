@@ -1,0 +1,166 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68f27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68f27.dir/build.make CMakeFiles/cmTC_68f27.dir/build
+make[1]: Entering directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68f27.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_68f27.dir/CheckSymbolExists.c.o   -c /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_68f27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68f27.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_68f27.dir/CheckSymbolExists.c.o  -o cmTC_68f27 
+CMakeFiles/cmTC_68f27.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_68f27.dir/build.make:97: recipe for target 'cmTC_68f27' failed
+make[1]: *** [cmTC_68f27] Error 1
+make[1]: Leaving directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_68f27/fast' failed
+make: *** [cmTC_68f27/fast] Error 2
+
+File /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40ea1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40ea1.dir/build.make CMakeFiles/cmTC_40ea1.dir/build
+make[1]: Entering directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40ea1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_40ea1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_40ea1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40ea1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_40ea1.dir/CheckFunctionExists.c.o  -o cmTC_40ea1 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_40ea1.dir/build.make:97: recipe for target 'cmTC_40ea1' failed
+make[1]: *** [cmTC_40ea1] Error 1
+make[1]: Leaving directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_40ea1/fast' failed
+make: *** [cmTC_40ea1/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11167/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11167.dir/build.make CMakeFiles/cmTC_11167.dir/build
+make[1]: Entering directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11167.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_11167.dir/CheckSymbolExists.cxx.o -c /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_11167.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_11167.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_11167.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_11167/fast' failed
+make: *** [cmTC_11167/fast] Error 2
+
+File /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ab719/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab719.dir/build.make CMakeFiles/cmTC_ab719.dir/build
+make[1]: Entering directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab719.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_ab719.dir/CheckSymbolExists.cxx.o -c /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_ab719.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ab719.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ab719.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ab719/fast' failed
+make: *** [cmTC_ab719/fast] Error 2
+
+File /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f05cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f05cb.dir/build.make CMakeFiles/cmTC_f05cb.dir/build
+make[1]: Entering directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f05cb.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4   -o CMakeFiles/cmTC_f05cb.dir/CheckSymbolExists.cxx.o -c /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+CMakeFiles/cmTC_f05cb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f05cb.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_f05cb.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f05cb/fast' failed
+make: *** [cmTC_f05cb/fast] Error 2
+
+File /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

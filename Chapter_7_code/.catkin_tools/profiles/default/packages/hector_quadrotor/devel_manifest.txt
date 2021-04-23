@@ -1,0 +1,2 @@
+hector_quadrotor/hector_quadrotor
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor/cmake.lock /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/./cmake.lock

@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target hector_uav_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target hector_gazebo_quadrotor_simple_controller[0m
+[35m[1mScanning dependencies of target hector_gazebo_quadrotor_aerodynamics[0m
+[  0%] Built target hector_uav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target hector_gazebo_ros_baro[0m
+[35m[1mScanning dependencies of target hector_gazebo_quadrotor_propulsion[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/hector_gazebo_quadrotor_simple_controller.dir/src/gazebo_quadrotor_simple_controller.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/hector_gazebo_quadrotor_aerodynamics.dir/src/gazebo_quadrotor_aerodynamics.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/hector_gazebo_ros_baro.dir/src/gazebo_ros_baro.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hector_gazebo_quadrotor_propulsion.dir/src/gazebo_quadrotor_propulsion.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_quadrotor_aerodynamics.so[0m
+[ 62%] Built target hector_gazebo_quadrotor_aerodynamics
+[ 75%] [32m[1mLinking CXX shared library /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_quadrotor_simple_controller.so[0m
+[ 87%] [32m[1mLinking CXX shared library /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_ros_baro.so[0m
+[ 87%] Built target hector_gazebo_quadrotor_simple_controller
+[100%] [32m[1mLinking CXX shared library /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_gazebo_plugins/lib/libhector_gazebo_quadrotor_propulsion.so[0m
+[100%] Built target hector_gazebo_ros_baro
+[100%] Built target hector_gazebo_quadrotor_propulsion

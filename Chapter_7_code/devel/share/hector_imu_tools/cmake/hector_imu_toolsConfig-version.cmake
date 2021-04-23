@@ -1,0 +1,1 @@
+/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_imu_tools/share/hector_imu_tools/cmake/hector_imu_toolsConfig-version.cmake

@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target hector_quadrotor_controller_gazebo[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hector_quadrotor_controller_gazebo.dir/src/quadrotor_hardware_gazebo.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_quadrotor_controller_gazebo/lib/libhector_quadrotor_controller_gazebo.so[0m
+[100%] Built target hector_quadrotor_controller_gazebo

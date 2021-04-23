@@ -1,0 +1,8 @@
+prefix=/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/devel/.private/hector_gazebo_thermal_camera
+
+Name: hector_gazebo_thermal_camera
+Description: Description of hector_gazebo_thermal_camera
+Version: 0.5.1
+Cflags: -I/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/src/hector_gazebo/hector_gazebo_thermal_camera/include
+Libs: -L${prefix}/lib 
+Requires: gazebo_plugins

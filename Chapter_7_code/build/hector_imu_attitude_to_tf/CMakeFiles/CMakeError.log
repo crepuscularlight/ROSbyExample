@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_imu_attitude_to_tf/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_698c2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_698c2.dir/build.make CMakeFiles/cmTC_698c2.dir/build
+make[1]: Entering directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_imu_attitude_to_tf/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_698c2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_698c2.dir/CheckSymbolExists.c.o   -c /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_imu_attitude_to_tf/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_698c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_698c2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_698c2.dir/CheckSymbolExists.c.o  -o cmTC_698c2 
+CMakeFiles/cmTC_698c2.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_698c2.dir/build.make:97: recipe for target 'cmTC_698c2' failed
+make[1]: *** [cmTC_698c2] Error 1
+make[1]: Leaving directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_imu_attitude_to_tf/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_698c2/fast' failed
+make: *** [cmTC_698c2/fast] Error 2
+
+File /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_imu_attitude_to_tf/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_imu_attitude_to_tf/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e9eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e9eb.dir/build.make CMakeFiles/cmTC_7e9eb.dir/build
+make[1]: Entering directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_imu_attitude_to_tf/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e9eb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7e9eb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7e9eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e9eb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7e9eb.dir/CheckFunctionExists.c.o  -o cmTC_7e9eb -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7e9eb.dir/build.make:97: recipe for target 'cmTC_7e9eb' failed
+make[1]: *** [cmTC_7e9eb] Error 1
+make[1]: Leaving directory '/home/liudiyang1998/Git/ROS-Robotics-By-Example/Chapter_7_code/build/hector_imu_attitude_to_tf/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7e9eb/fast' failed
+make: *** [cmTC_7e9eb/fast] Error 2
+
+
